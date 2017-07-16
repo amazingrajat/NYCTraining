@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			 h1{color:blue;}
+			div{
+				background-color:blue;
+				height: 500px;
+				width:500px;
+			}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $("button").click(function(){
+		         $("div").css({"background-color": "red", "height": "200px","width": "200px"});
+		    });
+		});
+	</script>
+	</head>
+	<body>
+		
+		<div id="p">
+		</div>
+
+	<button>Click</button>
+
+	</body>
+</html>
